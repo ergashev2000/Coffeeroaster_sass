@@ -420,6 +420,24 @@ nav {
   width: 80%;
 }
 
+.span__text {
+  cursor: pointer;
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+}
+
+.tel {
+  text-decoration: none;
+  color: black;
+}
+.tel:hover {
+  opacity: 0.7;
+}
+
 .hero_btn > a {
   background: #0E8784;
   border-radius: 6px;

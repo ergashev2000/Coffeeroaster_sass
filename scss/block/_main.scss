@@ -32,7 +32,23 @@
     margin: 50px 0;
     width: 80%;
 }
-
+.span__text{
+    cursor: pointer;
+    font-family: 'Fraunces', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F;
+    
+}
+.tel{
+    text-decoration: none;
+    color: black;
+    &:hover{
+        opacity: .7;
+    }
+}
 .hero_btn>a {
     background: #0E8784;
     ;
@@ -336,6 +352,7 @@
     display: flex;
     justify-content: start;
     position: relative;
+    
     &__img{
         position: absolute;
         right: 50px;
@@ -347,6 +364,7 @@
     &__text{
         padding: 70px;
         width: 650px;
+        
     }
     &__title::before{
         content: '';
