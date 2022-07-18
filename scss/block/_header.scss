@@ -139,10 +139,7 @@ nav {
     display: flex;
     flex-direction: column;
 }
-.choose__product{
-    margin: 200px 50px;
 
-}
 .choose__link{
     position: relative;
     width: 200px;
@@ -221,6 +218,7 @@ nav {
 .choose__product{
     display: flex;
     justify-content: left;
+    margin: 100px 50px;
 }
 .checkbox{
     margin-left: 120px;

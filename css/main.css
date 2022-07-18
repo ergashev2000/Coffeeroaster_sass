@@ -189,10 +189,6 @@ nav {
   flex-direction: column;
 }
 
-.choose__product {
-  margin: 200px 50px;
-}
-
 .choose__link {
   position: relative;
   width: 200px;
@@ -285,6 +281,7 @@ nav {
 .choose__product {
   display: flex;
   justify-content: left;
+  margin: 100px 50px;
 }
 
 .checkbox {
@@ -655,9 +652,145 @@ nav {
   color: #FDD6BA;
 }
 
+.hero__about {
+  content: "";
+  background: url(../image/about_banner.jpg) no-repeat;
+  border-radius: 20px;
+  background-size: cover;
+  margin: 0 50px;
+}
+
+.hero__about__text {
+  width: 40%;
+  padding: 10% 0 10% 5%;
+}
+
+.hero__about__title {
+  font-size: 40px;
+  color: #FEFCF7;
+  font-family: "Fraunces", sans-serif;
+}
+
+.hero__about__description {
+  font-size: 16px;
+  color: #FEFCF7;
+  font-family: "Barlow", sans-serif;
+  margin-top: 30px;
+  line-height: 26px;
+}
+
+.company {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.company .img_company {
+  border-radius: 10px;
+  margin: 100px;
+}
+.company .company__title {
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+  margin-bottom: 30px;
+}
+.company__description {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-right: 150px;
+}
+
+.info {
+  background-color: #333D4B;
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: start;
+  position: relative;
+}
+.info__img {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+.info__img img {
+  border-radius: 10px;
+}
+.info__text {
+  padding: 70px;
+  width: 650px;
+}
+.info__title::before {
+  content: "";
+  background-image: url(../image/bez2.png);
+  background-size: cover;
+}
+.info__title {
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin-bottom: 40px;
+}
+.info__description {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.country {
+  display: flex;
+  width: 80%;
+  margin: 50px auto;
+}
+.country__box {
+  width: 40%;
+  margin: 40px;
+}
+.country__box h3 {
+  margin: 50px 0 30px 0;
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+}
+.country__box__items li {
+  list-style: none;
+  margin-top: 10px;
+}
+.country__title {
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin: 150px auto 50px 180px;
+}
+
 /* FOOTER STYLE */
 footer {
-  margin-top: 200px;
+  margin-top: 0px;
   background-color: #2C343E;
   width: auto;
 }
